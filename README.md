@@ -18,11 +18,11 @@ A simple, lightweight, easy-to-use disconnect tool for Path of Exile written in 
 
 ## Requirements
 
-* AutoHotkey v1.1+*
-
 * A 64-bit Windows system
 
 * Administrator privileges
+
+* AutoHotkey v1.1+*
   
   **only if running the the script through QDC.ahk, the QDC.exe is self-contained and does not require AutoHotkey to be installed*
 
@@ -46,9 +46,7 @@ A simple, lightweight, easy-to-use disconnect tool for Path of Exile written in 
 
 * `config.ini`
 
-* `qdc.ahk`
-
-* `qdc.ico`
+* `QDC.exe`
 
 * `version.txt`
 
