@@ -23,8 +23,8 @@ A simple, lightweight, easy-to-use disconnect tool for Path of Exile written in 
 * A 64-bit Windows system
 
 * Administrator privileges
-
-  **only if running the the script through qdc.ahk, the qdc.exe file is self-contained and does not require AutoHotkey to be installed*
+  
+  **only if running the the script through QDC.ahk, the QDC.exe is self-contained and does not require AutoHotkey to be installed*
 
 ## Setup & Usage
 
