@@ -18,11 +18,15 @@ A simple, lightweight, easy-to-use disconnect tool for Path of Exile written in 
 
 ## Requirements
 
+* AutoHotkey v1.1+*
+
 * A 64-bit Windows system
 
 * Administrator privileges
-
-* AutoHotkey v1.1+ (only if running the .ahk file)
+  
+  
+  
+  **only if running the the script through qdc.ahk, the qdc.exe file is self-contained and does not require AutoHotkey to be installed*
 
 ## Setup & Usage
 
@@ -52,6 +56,9 @@ A simple, lightweight, easy-to-use disconnect tool for Path of Exile written in 
 
 ### Configuration
 
+Default config.ini
+
+```ini
 [Settings]
 ; The desired hotkey in the AHK format (https://www.autohotkey.com/docs/v1/KeyList.htm)
 Hotkey=Escape
@@ -62,6 +69,29 @@ DoublePressDuration=0.1
 ; The URL for downloading the cports.exe used for the TCP Disconnect function
 CPortsURL=https://www.nirsoft.net/utils/cports-x64.zip
 
+
+```
+
+* `Hotkey`
+  The button which, when pressed, activates the disconnect part of the script
+  Can be a keyboard key or a mouse button
+  Accepted values are any values which AutoHotkey accepts for hotkeys by default
+  List of valid keys and their formatting can be found [here](https://www.autohotkey.com/docs/v1/KeyList.htm)
+
+* `DoublePress`
+  Determines whether or not the assigned hotkey needs to be pressed twice
+  Accepted values are `True` and `False`
+
+* `DoublePressDuration`
+  Determines the duration between hotkey presses in order for them to register as a double-press
+  Only used if `DoublePress` is set to `True`
+  Any and all numerical values are accepted, unit used is a second (s)
+
+* `CPortsURL`
+  URL for the download of the cports-x64.zip file
+  Does not ordinarily need to be changed
+  Can be customized in case the original URL is changed or taken down
+  Any URL that downloads cports-x64.zip is valid
 
 ### Hotkey examples
 
