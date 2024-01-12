@@ -23,9 +23,7 @@ A simple, lightweight, easy-to-use disconnect tool for Path of Exile written in 
 * A 64-bit Windows system
 
 * Administrator privileges
-  
-  
-  
+
   **only if running the the script through qdc.ahk, the qdc.exe file is self-contained and does not require AutoHotkey to be installed*
 
 ## Setup & Usage
@@ -68,8 +66,6 @@ DoublePress=True
 DoublePressDuration=0.1
 ; The URL for downloading the cports.exe used for the TCP Disconnect function
 CPortsURL=https://www.nirsoft.net/utils/cports-x64.zip
-
-
 ```
 
 * `Hotkey`
